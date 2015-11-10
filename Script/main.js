@@ -9,12 +9,12 @@
 
 (function () {
 
-window.addEvent('domready', function() {
+    window.addEvent('domready', function() {
 	var tangle = new Tangle();
 	if (window.initParkExample) { initParkExample(tangle); }
-    if (window.initFilterExample) { initFilterExample(tangle); }
-    if (window.initWikipediaExample) { initWikipediaExample(); }
-});
+        if (window.initFilterExample) { initFilterExample(tangle); }
+        if (window.initWikipediaExample) { initWikipediaExample(); }
+    });
 
 
 })();
